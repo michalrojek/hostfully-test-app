@@ -1,0 +1,28 @@
+.booking-form {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 20;
+  margin-bottom: 10px;
+}
+
+.booking-form label {
+  grid-column: 1;
+  text-align: right;
+  align-self: center;
+  margin-right: 10px;
+}
+
+.booking-form input {
+  width: 200;
+  height: 30;
+  grid-column: 2;
+}
+
+.booking-form button {
+  width: 60;
+  height: 40;
+  border-width: 1;
+  border-radius: 5;
+  grid-column: 3;
+  justify-self: end;
+}

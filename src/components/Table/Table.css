@@ -1,0 +1,25 @@
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.bookings-table th {
+  height: 40px;
+  border: 1px solid;
+  background-color: #d4d4d4;
+}
+
+.bookings-table td {
+  height: 40px;
+  border: 1px solid;
+}
+
+.bookings-table td input {
+  width: -webkit-fill-available;
+}
+
+.bookings-table tbody tr:nth-of-type(even) {
+  background-color: #e5e5e5;
+}
